@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const success = userAnswers.every(({ enteredLetter, correctLetter }) => enteredLetter === correctLetter);
 
         if (success) {
-            alert('Congratulations! All answers are correct. Next location is local c->encrypt->encrypt.txt');
+            alert('Congratulations! All answers are correct.');
         } else {
             alert('Oops! Some answers are incorrect. Please check and try again.');
         }
